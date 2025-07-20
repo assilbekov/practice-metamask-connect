@@ -7,13 +7,7 @@
   </head>
   <body>
     <h1>Hi</h1>
-    <script>
-      async function connect() {
-        if (typeof window.ethereum !== "undefined") {
-          await ethereum.request({ method: "eth_requestAccounts" });
-        }
-      }
-    </script>
+    <script src="index.js"></script>
     <button id="connectButton" onclick="connect()">Connect</button>
   </body>
 </html>
