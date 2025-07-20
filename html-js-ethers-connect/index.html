@@ -7,5 +7,12 @@
   </head>
   <body>
     <h1>Hi</h1>
+    <script>
+      if (typeof window.ethereum !== "undefined") {
+        console.log("MetaMask is installed!");
+      } else {
+        console.log("MetaMask is not installed.");
+      }
+    </script>
   </body>
 </html>
